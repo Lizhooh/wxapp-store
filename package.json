@@ -1,0 +1,22 @@
+{
+  "name": "wxapp-store",
+  "version": "1.0.0",
+  "description": "wxapp-store 是一个微信小程序本地数据持久化存储库。",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lizhooh/wxapp-store.git"
+  },
+  "keywords": [
+    "wxapp",
+    "store",
+    "wxapp-store",
+    "storage",
+    "wx-Storage"
+  ],
+  "author": "lizhooh",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  }
+}
