@@ -33,7 +33,7 @@ yarn add wxapp-store
 默认 Store 为异步存储，通过指定配置项 async 来设置。异步存储与同步存储 api 一样，使用异步存储时返回的是 Promise。**注意：**需要关闭 ES6 转 ES5。
 
 ```js
-const Store = require('wxapp-store');
+const Store = require('wxapp-store');   // 具体路径指定定位
 const store = new Store({ wx });        // 必须指定 wx 对象
 + async function() {
     await store.set('a', 1);
