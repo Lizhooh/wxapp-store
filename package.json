@@ -1,6 +1,6 @@
 {
   "name": "wxapp-store",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "wxapp-store 是一个微信小程序本地数据持久化存储库。",
   "main": "index.js",
   "repository": {
