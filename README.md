@@ -65,3 +65,11 @@ const store = new Store({ wx });        // 必须指定 wx 对象
 const store = new Store({ wx: wepy });
 ```
 
+在 Taro 里使用的时候，可以指定 wx 对象为 Taro。
+
+```js
+const store = new Store({ wx: Taro });
+```
+
+其他使用方式一致。
+
